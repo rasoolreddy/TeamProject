@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .bg {
+            border: 5px solid skyblue;
+            display: flex;
+            justify-content: center;
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-fresh-hand-painted-blue-banner-on-fresh-fruits-and-vegetables-image_177599.jpg');
+            height: 450px;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+
+        .navbar {
+            background-color: green;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .navbar a {
+            background-color: black;
+            margin: 0 10px;
+    
+        }
+
+        
+        .navbar a:hover {
+            background-color: orange;
+            color: pink;
+        }
+        footer {
+        background-color: pink;
+        padding: 20px;
+        color: black;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+    }
+
+    .social-links {
+        text-align:center; 
+    }
+    form{
+    box-shadow: 15px 15px 15px tomato;
+   padding: 30px;
+       
+    }
+   
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-2">
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <a href="" class="btn btn-info" role="button">HOME</a>
+                <a href= ""class="btn btn-info" role="button">ACCOUNT CREATION</a>
+                <a href=""class="btn btn-info" role="button">LOGIN</a>
+                <a href="" class="btn btn-info" role="button">PLANTS</a>
+                <a href="" class="btn btn-info" role="button">OFFER</a>
+                <a href="" class="btn btn-info" role="button">CONTACT US</a>
+            </nav>
+        </div>
+    </header>
+    <div class="bg">
+        <form>
+            <h1 align="center"><strong>CONTACT US</strong></h1>
+            <table align="center">
+                <tr>
+                    <td>Full name:</td>
+                    <td><input type="text" placeholder="Full name" name="fname" required><p></p></td>
+                </tr>
+                <tr>
+                    <td>PhoneNumber:</td>
+                    <td><input type="number" placeholder="Mobile number" name="mno" required><p></p></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" placeholder="Please enter Email" name="email" required><p></p></td>
+                </tr>
+                 
+                <tr>
+                    <td>ADDRESS:</td>
+                    <td><textarea id="message" name="message" class="message-box" required></textarea><p></p></td>
+                
+                <tr>
+                    <td>Message:</td>
+                    <td><textarea id="message" name="message" class="message-box" required></textarea><p></p></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div>
+        <center>
+        <h1 style="color:red">ABOUT FRUITS</h1>
+        </center>
+    
+        <p style="color:brown">Fruits and vegetables have an exceedingly beneficial nutritional composition. They are low in calories and high in essential nutrients, making them a preferred dietary option for weight loss. Traditionally, vegetables were always consumed as part of a wholesome or complete meal, and fruits were consumed in between well balanced meals. Such a diet was often handed out to clients by nutritionists and dietitians.
+
+            Off late however, people are trying out new fruits and vegetables only diet, where they ditch complete meals, and only opt to consume fruits and vegetables. This trend is gaining traction because of personal anecdotes people have shared about their weight loss journey on the internet and social media. So what really happens to your body when you forego other whole foods? Let’s find out.
+            
+            </p>
+    </div>
+<div>
+    <center>
+<h1 style="color:fuchsia">ABOUT PLANTS</h1>
+</center>
+<p style="color:palevioletred">Plants are beneficial to us in a variety of ways. Plants offer seeds such as wheat, rice, corn, and other foods that we consume on a daily basis. Plants provide us with oxygen and take in the carbon dioxide that we release. This helps maintain a balance in the ecosystem and reduces global warming<P>Plants are multicellular organisms in the kingdom Plantae that use photosynthesis to make their own food. There are over 300,000 species of plants; common examples of plants include grasses, trees, and shrubs. Plants have an important role in the world's ecosystems.</P>.</p>
+</div>
+
+
+    <footer>
+        <div class="social-links">
+            <h3 style="color: black">SOCIAL MEDIA LINK</h3>
+            <a href="https://www.facebook.com/">Facebook</a><br>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">Twitter</a><br>
+            <a href="https://www.youtube.com/results?search_query=about+plant+and+vegetable">YouTube</a>
+        </div>
+        
+        
+        <div class="mail-section">
+            <h3>Mail Us</h3>
+            <hr>
+            <p> Internet Private Limited,<br>
+
+                Buildings Alyssa, Begonia &<br>
+                
+                        Clove Embassy Tech Village,<br>
+                
+                Outer Ring Road, Devarabeesanahalli Village,<br>
+                
+                Bengaluru, 560103,<br>
+                
+                Karnataka, India</p>
+           
+        </div>
+        <div>
+
+            <h3>Registered Office Address</h3>
+            <hr>
+
+            <p>Natural Natures Mart,<br>
+
+                Buildings Alyssa, Begonia &<br>
+                
+                Clove Embassy Tech Village,<br>
+                
+                Outer Ring Road, Devarabeesanahalli Village,<br>
+                
+                Bengaluru, 560103,<br>
+                
+                Karnataka, India<br>
+                
+                CIN : U51109KA2012PTC066107<br>
+                
+                Telephone: 9848875388</p>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+    <script>
+        function validateForm() {
+            var fullName = document.forms["contactForm"]["fname"].value;
+            var phoneNumber = document.forms["contactForm"]["mno"].value;
+            var email = document.forms["contactForm"]["email"].value;
+            var address = document.forms["contactForm"]["Address"].value;
+            var message = document.forms["contactForm"]["message"].value;
+    
+            if (fullName === "") {
+                alert("Full name must be filled out");
+                return false;
+            }
+    
+            if (phoneNumber === "") {
+                alert("Phone number must be filled out");
+                return false;
+            }
+    
+            if (!/^\d{10}$/.test(phoneNumber)) {
+                alert("Phone number must have exactly 10 digits");
+                return false;
+            }
+    
+            if (email === "") {
+                alert("Email must be filled out");
+                return false;
+            }
+    
+            if (address === "") {
+                alert("Address must be filled out");
+                return false;
+            }
+    
+            
+    
+            
+    
+            if (message === "") {
+                alert("Message must be filled out");
+                return false;
+            }
+        }
+    </script>
+
+
+</body>
+</html>
